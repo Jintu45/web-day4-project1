@@ -1,0 +1,179 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* h1 h2 h3 h4 h5 h6 {
+    font-family: 'Poppins', sans-serif;
+} */
+img{
+    max-width: 100%;
+}
+        /* header-section  css*/
+.header-section{
+    display: flex;
+}
+.header-item{
+    width: 50%;
+    padding: 80px 70px;
+
+}
+.header-item h1{
+    font-size: 60px;
+    color: #74797a;
+    font-weight: 600;
+}
+.header-item span{
+    color: #f39c12;
+}
+.header-item p {
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+}
+.header-btn {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    display: inline-block;
+    background: linear-gradient(to right, #ff4700 , #ffb100f5);
+    /* background: blue; */
+    color: #fff;
+    font-weight: 600;
+    transition: .5s;
+}
+.header-btn:hover{
+    color: #fff;
+    background: linear-gradient(to right, rgba(25, 19, 99, 0.622), rgba(255,0,0,1));
+}
+.header-img-item{
+    width: 50%;
+    padding: 40px 60px 0px 0px;
+}
+
+        /* banner-section css */
+.banner-section{
+    display: flex;
+    background-image: url(img/shapes/Frame\ 58.jpg);
+    background-position:center top;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner-item{
+    width: 50%;
+   padding: 100px 50px;
+}
+.banner-item h1 {
+    font-size: 40px;
+    color: #7e7e7e;
+    font-weight: 700;
+}
+.banner-item p {
+    font-size: 18px;
+    color: #6e6e6e;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.banner-img-item{
+    width: 50%;
+    padding-left: 5%;
+}
+.banner-img-item img{
+    width: 500px;
+    height: auto;
+}
+
+            /* recipies section css */
+.recipes-section{
+    margin-bottom: 80px;
+}
+.recipies-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.recipies-title h2{
+    color: #686868;
+    font-size: 35px;
+    font-weight: 600;
+}
+.recipies-title p{
+    width: 50%;
+    margin: auto;
+    color: #7e7e7e;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+.recipies-item-sec{
+    display: flex;
+}
+.recipes-item{
+    width: 40%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.recipies-content{
+    padding-right: 30px;
+}
+.recipies-content h2 {
+    font-size: 27px;
+    color: #645d5d;
+}
+.recipies-content p {
+    font-size: 17px;
+    color: #565656;
+    font-weight: 400;
+}
+        /* activites-section */
+.activites-section{
+    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.activites-section-des{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    width: 87%;
+    display: flex;
+    padding: 40px;
+    margin-left: 4%;
+    justify-content: space-evenly;
+}
+
+
+.activites-item h1 {
+    font-size: 40px;
+    color: #604545;
+    font-weight: 700;
+}
+.activites-item h4 {
+    font-weight: 400;
+    color: #645d5d;
+    font-size: 16px;
+}
+
+        /* footer section css */
+footer {
+    background: black;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer h1{
+    font-size: 38px;
+    color: #5c5c5c;
+}
+footer span{
+    color: #f78816f2 ;
+
+}
+footer p{
+    color: #939090;
+    font-size: 15px;
+    font-weight:400 ;
+}
